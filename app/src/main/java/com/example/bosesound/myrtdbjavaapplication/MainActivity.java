@@ -134,11 +134,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         etUser = findViewById(R.id.et_user);
         String stringMessage = etMessage.getText().toString();
         String stringUser    = etUser.getText().toString();
-        FirebaseUser user = mAuth.getCurrentUser();
-        if(user != null)
-            signOut();
-        else
-            signIn();
         if (stringMessage.equals("") || stringUser.equals("")) {
             return;
         }
@@ -154,11 +149,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mRootRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                String stringUser = dataSnapshot.child("records").child(uid).child("name").getValue().toString();
-                String stringMessage = dataSnapshot.child("records").child(uid).child("quote").getValue().toString();
                 String all = dataSnapshot.child("records").getValue().toString();
                 tv_message = findViewById(R.id.tv_message);
-                //tv_message.setText("\"" + stringMessage + "\" --- " + stringUser + " ไม่ได้กล่าวไว้");
                 tv_message.setText(all);
             }
             @Override
