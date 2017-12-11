@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1023678985818",
+    "firebase_url": "https://test405-af383.firebaseio.com",
+    "project_id": "test405-af383",
+    "storage_bucket": "test405-af383.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023678985818:android:9524d5e60763138e",
+        "android_client_info": {
+          "package_name": "com.bosesound.testfirebase405"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023678985818-2mdn0tpi39rkf5mapipkrdn3d2ihlqna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bosesound.testfirebase405",
+            "certificate_hash": "5f03b230f9f99bcf01e3d342d238591979ee88b4"
+          }
+        },
+        {
+          "client_id": "1023678985818-q5b7ljfsffk75f9hdj1pva12a06bdf3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVXMB_7NkIPnIKnMaPQ9f39DNhKhXDvFk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023678985818-q5b7ljfsffk75f9hdj1pva12a06bdf3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023678985818:android:1782077d586d9ba0",
+        "android_client_info": {
+          "package_name": "com.example.bosesound.myrtdbjavaapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023678985818-u8ir0ah114mntsaunqrinpvubrb53hbs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bosesound.myrtdbjavaapplication",
+            "certificate_hash": "d82e42b91b6378323de0d3d896cccd918a75fa5e"
+          }
+        },
+        {
+          "client_id": "1023678985818-q5b7ljfsffk75f9hdj1pva12a06bdf3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVXMB_7NkIPnIKnMaPQ9f39DNhKhXDvFk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023678985818-q5b7ljfsffk75f9hdj1pva12a06bdf3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
