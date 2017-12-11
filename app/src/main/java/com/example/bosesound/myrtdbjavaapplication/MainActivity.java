@@ -92,6 +92,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             Log.d("test", "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             uid = user.getUid();
+                            TextView textView = (TextView) signInButton.getChildAt(0);
+                            textView.setText("Sign out");
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("test", "signInWithCredential:failure", task.getException());
@@ -106,8 +108,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
-        TextView textView = (TextView) signInButton.getChildAt(0);
-        textView.setText("Sign out");
     }
 
     @Override
